@@ -1,0 +1,1 @@
+DATEADD('day',1,DATEADD('day',-1, DATEADD('month',-13, DATETRUNC('month',TODAY()))))
